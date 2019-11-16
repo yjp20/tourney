@@ -1,4 +1,4 @@
-module github.com/yjp20/discord_tournament
+module github.com/yjp20/tourney
 
 go 1.13
 
