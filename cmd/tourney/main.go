@@ -48,7 +48,7 @@ func main() {
 	ff.Parse(fs, os.Args[1:],
 		ff.WithConfigFileFlag("config"),
 		ff.WithConfigFileParser(ff.PlainParser),
-		ff.WithEnvVarPrefix("TOURNEY"),
+		ff.WithEnvVarPrefix("TOURNAMENT MANAGER"),
 	)
 	dg, err := discordgo.New("Bot " + *token)
 	if err != nil {
